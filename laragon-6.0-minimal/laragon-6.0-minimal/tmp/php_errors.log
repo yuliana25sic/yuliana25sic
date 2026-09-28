@@ -1,0 +1,50 @@
+[22-Sep-2026 01:52:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:393) in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:328
+Stack trace:
+#0 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#2 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(328): header('HTTP/1.1 500 In...', true, 500)
+#3 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php on line 328
+[22-Sep-2026 01:52:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:393) in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:328
+Stack trace:
+#0 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#2 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(328): header('HTTP/1.1 500 In...', true, 500)
+#3 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#6 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(239): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#7 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#9 {main}
+  thrown in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php on line 328
+[22-Sep-2026 01:54:40 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:393) in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:328
+Stack trace:
+#0 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#2 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(328): header('HTTP/1.1 500 In...', true, 500)
+#3 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php on line 328
+[22-Sep-2026 01:54:40 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:393) in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php:328
+Stack trace:
+#0 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}(2, 'Cannot modify h...', 'D:\\Nova_2SIB\\la...', 328)
+#2 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(328): header('HTTP/1.1 500 In...', true, 500)
+#3 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#6 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(239): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\ErrorHandler\Error\FatalError))
+#7 D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#8 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#9 {main}
+  thrown in D:\Nova_2SIB\laragon-6.0-minimal\www\prak-nova\vendor\symfony\http-foundation\Response.php on line 328
