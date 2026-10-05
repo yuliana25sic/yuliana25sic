@@ -21,3 +21,6 @@
 2026-09-28T00:16:15.404085Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2026-09-28T00:16:15.439731Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
 2026-09-28T00:16:15.439757Z 0 [System] [MY-010931] [Server] D:\Yuliana_2SIC\laragon-6.0-minimal\laragon-6.0-minimal\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-09-28T02:39:45.817305Z 15 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.30).
+2026-09-28T02:39:45.817843Z 0 [System] [MY-013105] [Server] D:\Yuliana_2SIC\laragon-6.0-minimal\laragon-6.0-minimal\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Normal shutdown.
+2026-09-28T02:39:47.143714Z 0 [System] [MY-010910] [Server] D:\Yuliana_2SIC\laragon-6.0-minimal\laragon-6.0-minimal\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.

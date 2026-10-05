@@ -27,9 +27,13 @@ Route::get('/about', function () {
 });
 
 use App\Http\Controllers\MatakuliahController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 // Route khusus untuk menangani endpoint /matakuliah/show/{kode?}
 Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
 
 // Route resource untuk method standar lainnya (index, create, store, edit, update, destroy)
 Route::resource('matakuliah', MatakuliahController::class)->except(['show']);
+
+Route::get('/home', [HomeController::class, 'index']);
